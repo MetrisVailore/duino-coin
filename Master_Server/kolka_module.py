@@ -15,9 +15,9 @@ with open('/home/debian/websites/PoolRewards.json', 'r') as f:
 
 MULTIPLIER = 1
 DECIMALS = 20
-MAX_PC_DIFF = 150000
-MAX_AVR_DIFF = 1500
-PC_KOLKA_DROP = pool_rewards["NET"]["kolka_decrease_perc"] * 0.01
+MAX_PC_DIFF = 100000
+MAX_AVR_DIFF = 1000
+PC_KOLKA_DROP = pool_rewards["MEDIUM"]["kolka_decrease_perc"] * 0.01
 ESP_KOLKA_DROP = pool_rewards["ESP32"]["kolka_decrease_perc"] * 0.01
 AVR_KOLKA_DROP = pool_rewards["AVR"]["kolka_decrease_perc"] * 0.01
 
